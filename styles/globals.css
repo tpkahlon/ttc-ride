@@ -145,3 +145,7 @@ nav a:hover,
   color: black;
   background: white;
 }
+
+.video {
+  padding: 0;
+}

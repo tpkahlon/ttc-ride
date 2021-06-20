@@ -89,7 +89,7 @@ export default function Home() {
           </footer>
         </main>
       ) : (
-        <main>
+        <main className="video">
           <ReactPlayer
             url={`./${station}-${direction}.mp4`}
             controls
