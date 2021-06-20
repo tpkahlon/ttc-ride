@@ -38,7 +38,7 @@ export default function Home() {
         <main>
           <h1>Please pick your ride of choice...</h1>
           <span>
-            This application allow users to take a virtual ride in a bus,
+            This application allow users to take a virtual ride on a bus,
             streetcar or subway run by TTC. This application may be useful for
             accessibility purposes.
           </span>
