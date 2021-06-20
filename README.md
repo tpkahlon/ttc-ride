@@ -17,10 +17,6 @@
 	</strong>
 </p>
 
-<p align="center">
-	<img src="" width="550">
-</p>
-
 ## Overview
 
 This application allow users to take a virtual ride in a bus, streetcar or subway run by TTC. This application may be useful for accessibility purposes.
