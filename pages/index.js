@@ -73,6 +73,20 @@ export default function Home() {
               false
             )}
           </div>
+          <footer>
+            <small>
+              If you liked the application or would like to make a contribution,
+              please head to{" "}
+              <a
+                href="https://github.com/tpkahlon/ttc-ride"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                repository
+              </a>
+              .
+            </small>
+          </footer>
         </main>
       ) : (
         <main>

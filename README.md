@@ -1,30 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+	<img
+		width="300"
+		alt="TTC Ride"
+		src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/TTC.svg/440px-TTC.svg.png">
+</h1>
 
-## Getting Started
+<h3 align="center">
+	TTC Ride - No fare necessary
+</h3>
 
-First, run the development server:
+<p align="center">
+	<strong>
+		<a href="http://ttc-ride.surge.sh">Website</a>
+		•
+		<a href="https://github.com/tpkahlon/ttc-ride">Source</a>
+	</strong>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<p align="center">
+	<img src="" width="550">
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+This application allow users to take a virtual ride in a bus, streetcar or subway run by TTC. This application may be useful for accessibility purposes.
 
-## Learn More
+## Development setup
 
-To learn more about Next.js, take a look at the following resources:
+Simply follow the instructions to run TTC Ride from source above, on your own fork.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `y && y dev` can be used to start TTC Ride
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Issues
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- If you feel you have a high quality video link for a certain bus, streetcar or subway, I can include that in the application. To do so, please open an issue [here](https://github.com/tpkahlon/ttc-ride/issues)
