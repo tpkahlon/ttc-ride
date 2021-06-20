@@ -1,7 +1,7 @@
 import React from "react";
 import { streetcars } from "../common";
 
-const Streetcar = () => {
+const Streetcar = ({ handleClick }) => {
   return (
     <>
       {streetcars.map(({ line, direction, video }, idx) => {

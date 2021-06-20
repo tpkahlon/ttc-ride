@@ -1,7 +1,7 @@
 import React from "react";
 import { subway } from "../common";
 
-const Subway = () => {
+const Subway = ({ handleClick }) => {
   return (
     <>
       {subway.map(({ line, direction, video }, idx) => {
