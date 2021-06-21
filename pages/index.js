@@ -24,6 +24,13 @@ export default function Home() {
       choice,
     });
   };
+  const handleBack = () => {
+    setData({
+      station: 0,
+      direction: null,
+      choice: "subway",
+    });
+  };
   return (
     <>
       <Head>
@@ -90,6 +97,11 @@ export default function Home() {
         </main>
       ) : (
         <main className="video">
+          <div className="buttons">
+            <a onClick={handleBack} className="back">
+              Home
+            </a>
+          </div>
           <ReactPlayer
             url={`./${station}-${direction}.mp4`}
             controls
